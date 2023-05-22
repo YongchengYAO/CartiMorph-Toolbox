@@ -1,1 +1,3 @@
-# CartiMorph-Toolbox
+
+
+![aboutCMT](README.assets/aboutCMT.png)
