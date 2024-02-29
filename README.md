@@ -6,12 +6,11 @@ We are working on an academic paper, documents, and IP protection.
 
 Toolbox installer will be released under this repository. If you are interested in the toolbox, consider customizing notification settings under the “watch/unwatch” section.
 
-
 ## Features
 
 - [CartiMorph](https://github.com/YongchengYAO/CartiMorph): a framework for knee articular cartilage morphometrics
 - User-friendly: 
-  - graphical user interface (no coding)
+  - graphical user interface
   - automatic configuration
   - pause and resume running
   - models exporting and loading
