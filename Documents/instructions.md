@@ -10,9 +10,11 @@
 
 - Data
   - NIfTI format: `.nii` or `.nii.gz`
-  - **Crutial**: the patellar cartilage in the axial view should be parallel to the image axis (see example here)
+  - **Crutial**: the patellar cartilage in the axial view should be parallel to the image axis (see example below)
 - Dependency: conda (anaconda or miniconda)
 - OS: Linux
+
+![example-MRI](instructions.assets/example-MRI.png)
 
 ## Section I. Computing Environment Configuration
 
