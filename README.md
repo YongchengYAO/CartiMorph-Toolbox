@@ -2,18 +2,19 @@
 
 ![aboutCMT](README.assets/aboutCMT.png)
 
-We are working on an academic paper, documents, and IP protection. 
+## Release:
 
-Toolbox installer will be released under this repository. If you are interested in the toolbox, consider customizing notification settings under the “watch/unwatch” section.
+- [v1.0.0](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.0):
+  - [CartiMorphToolbox-linux-standalone-v1.0.0.install](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/download/v1.0.0/CartiMorphToolbox-linux-standalone-v1.0.0.install)
 
 ## Features
 
 - [CartiMorph](https://github.com/YongchengYAO/CartiMorph): a framework for knee articular cartilage morphometrics
 - User-friendly: 
-  - graphical user interface
   - automatic configuration
+  - automatic image preprocessing 
   - pause and resume running
-  - models exporting and loading
+  - models import and export functions make fine-tuning and deployment easy
 - Deep learning models training, evaluation, and inference
 - Transfer learning (fine-tuning)
 - Knee articular cartilage morphometrics
@@ -23,5 +24,25 @@ Toolbox installer will be released under this repository. If you are interested 
   - cartilage volume
   - regional analysis (20 subregions)
 
-- Visualization & report system
+- Data visualization with [CartiMorph Viewer](https://github.com/YongchengYAO/CartiMorph-Viewer)
+
+## Step-by-step Instructions
+
+For detailed instructions, please go to [this page](https://github.com/YongchengYAO/CartiMorph-Viewer/blob/main/Documents/instructions.md).
+
+## Citation
+
+If you use the toolkit, please cite the CartiMorph paper.
+
+```
+@article{yao2024cartimorph,
+  title={CartiMorph: A framework for automated knee articular cartilage morphometrics},
+  author={Yao, Yongcheng and Zhong, Junru and Zhang, Liping and Khan, Sheheryar and Chen, Weitian},
+  journal={Medical Image Analysis},
+  volume={91},
+  pages={103035},
+  year={2024},
+  publisher={Elsevier}
+}
+```
 
