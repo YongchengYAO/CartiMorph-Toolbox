@@ -23,8 +23,11 @@
   - cartilage surface area
   - cartilage volume
   - regional analysis (20 subregions)
-
 - Data visualization with [CartiMorph Viewer](https://github.com/YongchengYAO/CartiMorph-Viewer)
+
+## Previous works
+
+CMT is based on previous works on medical image segmentation and registration. Specifically, we made minor modificaiton to the nnUNet (v1) and major changes to VoxelMorph. The training losses and strategy of our registration model is different from the original VoxelMorph model. Our modified packages are published as [CartiMorph-vxm](https://github.com/YongchengYAO/CartiMorph-vxm#cartimorph-vxm) and [CartiMorph-nnUNet](https://github.com/YongchengYAO/CartiMorph-nnUNet#cartimorph-nnunet).
 
 ## Step-by-step Instructions
 
