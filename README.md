@@ -30,6 +30,12 @@
 
 For detailed instructions, please go to [this page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/instructions.md).
 
+## Debug
+
+Once the preprocessing steps in the segmentation model and registration model training sections are completed, you should be able to observe computing on GPU with the `nvidia-smi` command. One way to monitor the process is by `watch -n1 nvidia-smi`.
+
+When training models on custom data, there is a risk that errors or problems with the data could adversely impact the training process. For detailed instructions on how to debug, go to [this page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/debug.md).
+
 ## Citation
 
 If you use the toolkit, please cite the CartiMorph paper.

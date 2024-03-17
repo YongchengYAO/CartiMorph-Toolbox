@@ -44,12 +44,12 @@
 
 This is where you define training/inference data. If you did not configure the pipeline to train/finetune a model, training data is not needed.
 
-- `Knee Side Information`: load a .csv file with NIfTI filenames and knee side for all images included in the <training>, <testing>, and <inference> set. An example of the .csv file is as follows.
+- `Knee Side Information`: load a .csv file with NIfTI filenames and knee side for all images in the training, testing, and inference set. An example of the .csv file is as follows.
 
   ```
   filename1.nii.gz,right
-  filename1.nii.gz,left
-  filename1,right
+  filename2.nii.gz,left
+  filename3.nii.gz,right
   ```
 
 ## Outputs in the`Results` Folder
@@ -59,7 +59,7 @@ CartiMorph Toolbox saves the quantification results into the `Results` folder wi
 ```python
 # [Results] folder from CartiMorph Toolbox
 # ├── [CartiMorph Toolbox folder]
-#  ├── Results
+# 	├── Results
 #   ├── Task<ID>_<task-name> // <--- "Result Folder" for CMV
 #	   ├── [case-name]
 #	    ├── CartilageSubregion
