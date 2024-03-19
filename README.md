@@ -2,6 +2,10 @@
 
 ![aboutCMT](README.assets/aboutCMT.png)
 
+**Stay tune: watch (upper right corner) > custom > Releases**
+
+The toolbox is currently under rapid testing and improvement. You don’t want to miss these updates.
+
 ## Release:
 
 - [v1.0.0](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.0):
