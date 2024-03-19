@@ -8,7 +8,12 @@ The toolbox is currently under rapid testing and improvement. You don’t want t
 
 ## Release:
 
-- [v1.0.0](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.0):
+Check the [release log file](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/log_releases.md) for details.
+
+- [v1.0.1](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.1)
+  - [CartiMorphToolbox-linux-standalone-v1.0.1.install](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/download/v1.0.1/CartiMorphToolbox-linux-standalone-v1.0.1.install)
+
+- [v1.0.0](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.0)
   - [CartiMorphToolbox-linux-standalone-v1.0.0.install](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/download/v1.0.0/CartiMorphToolbox-linux-standalone-v1.0.0.install)
 
 ## Features
