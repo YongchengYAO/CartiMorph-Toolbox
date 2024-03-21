@@ -16,9 +16,9 @@ Check the [CMT releases log file](https://github.com/YongchengYAO/CartiMorph-Too
 - [v1.0.0](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.0)
   - [CartiMorphToolbox-linux-standalone-v1.0.0.install](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/download/v1.0.0/CartiMorphToolbox-linux-standalone-v1.0.0.install)
 
-## Models Releases:
+## Model Releases:
 
-Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md) for details.
+Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md) for details. Just download the archived file, extract the files, and select the folder when importing models in CMT.
 
 ## Features
 
