@@ -66,14 +66,13 @@ CartiMorph Toolbox saves the quantification results into the `Results` folder wi
         ├── CartilageSubregion_Figure // figure files
         ├── Image
         ├── MorphologicalQuantification // quantificaiton files
-        ├── [case-name]_MorphQuant.csv // csv files
         ├── Surface
         ├── Surface_Figure // figure files
         ├── SurfaceNormal
         ├── SurfaceNormal_Figure // figure files
         ├── ThicknessMap
         ├── ThicknessMap_Figure // figure files
-        ├── ThicknessMap
+        ├── kneeSideInfo.mat
 ```
 
 ## Data visualization
