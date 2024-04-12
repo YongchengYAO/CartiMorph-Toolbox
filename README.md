@@ -2,18 +2,18 @@
 
 ![aboutCMT](README.assets/aboutCMT.png)
 
-**Stay tune: watch (upper right corner) > custom > Releases**
+**Stay tuned: watch (upper right corner) > custom > Releases**
 
 The toolbox is currently under rapid testing and improvement. You don’t want to miss these updates.
 
-## Toolbox Releases:
+## Toolbox Release:
 
 Check the [CMT releases log file](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/CMT_releases.md) for details.
 
 - [latest release: v1.0.1](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.1)
   - [CartiMorphToolbox-linux-standalone-v1.0.1.install](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/download/v1.0.1/CartiMorphToolbox-linux-standalone-v1.0.1.install)
 
-## Model Releases:
+## Model Release:
 
 Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md) for details. Just download the archived file, extract the files, and select the folder when importing models in CMT.
 
@@ -35,7 +35,7 @@ Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-T
   - regional analysis (20 subregions)
 - Data visualization with [CartiMorph Viewer](https://github.com/YongchengYAO/CartiMorph-Viewer)
 
-## Previous & our works
+## Previous & Our Work
 
 CMT is based on previous works on medical image segmentation and registration. Specifically, we made minor modificaiton to the nnUNet (v1) and major changes to VoxelMorph. The training losses and strategy of our registration model is different from the original VoxelMorph model. Our modified packages are published as [CartiMorph-vxm](https://github.com/YongchengYAO/CartiMorph-vxm#cartimorph-vxm) and [CartiMorph-nnUNet](https://github.com/YongchengYAO/CartiMorph-nnUNet#cartimorph-nnunet).
 
@@ -46,7 +46,7 @@ You can find the examplary training scripts:
 
 Note that the scripts are not intended to be used separately from the CMT as it relies on the automatic preprocessing in the toolbox, which mainly consists of image reorientation, resampling, auto-downsampling (for registration model), and central cropping (for registration model).
 
-## Step-by-step Instructions
+## Step-by-step Instruction
 
 For detailed instructions, please go to [this page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/instructions.md).
 

@@ -4,13 +4,14 @@
 
 ![CMT-UI](instructions.assets/CMT-UI.png)
 
-==Check the tips==
+Check the `Tips` in CMT
 
 ## Prerequisites
 
 - Data
   - NIfTI format: `.nii` or `.nii.gz`
-  - **Crutial**: the patellar cartilage in the axial view should be parallel to the image axis (see example below)
+  - The affine matrix should be in the NIfTI file header. Using [dcm2niix](https://github.com/rordenlab/dcm2niix) for image conversion is recommended.
+  - Patellar cartilage in the axial view should be parallel to the image axis (see example below). Otherwise, you may need to rigid-body register the image to a reference image like the one on the left.
 - Dependency: conda (anaconda or miniconda)
 - OS: Linux
 
@@ -18,7 +19,7 @@
 
 ## Section I. Computing Environment Configuration
 
-- `Project ID (3 digits)`: you must specify a unique 3-digit ID for each project/task/experiment, especially when you want ot train or finetune the segmentation model.
+- `Project ID (3 digits)`: you must specify a unique 3-digit ID for each project/task/experiment, especially when you want to train or finetune the segmentation model.
 - `Project Code Name`: project name
 - `CartiMorph Toolbox Folder`: the working directory for training data and results
 - `Conda Folder`: choose one of these folders, do not go into subfolders 
