@@ -4,31 +4,30 @@
 
 **Folders in the CMT working directory:**
 
-```python
-# ├── [CartiMorph Toolbox folder]
-#  ├── Models_saved \\ <--- folder for exported models
-#   ├── segmentation
-#    ├── [model 1]
-#    ├── [model 2]
-#    ├── ...
-# 	├── registration
-#    ├── [model 1]
-#    ├── [model 2]
-#    ├── ...
-#  ├── Models_training \\ <--- folder for training data and models
-#   ├── nnUNet
-#    ├── nnUNet_autoScripts \\ CMT-generated scripts
-#    ├── nnUNet_log \\ log files
-#    ├── nnUNet_trained_models \\ with log file in [some path]/all/training*.txt
-#    ├── ...
-#   ├── VoxelMorph
-#    ├── vxm_autoScripts \\ CMT-generated scripts
-#    ├── vxm_log \\ log files
-#    ├── vxm_models \\ with learned template images in project subfolders
-#    	├── Task[ID]_[name]
-#    ├── ...
-# ├── ProjectConfiguration \\ <--- folder for project configuration
-# ├── Results \\ <--- folder for CMT results
+```
+├── [CartiMorph Toolbox folder]
+  ├── Models_saved \\ <--- folder for exported models
+    ├── segmentation
+      ├── [model 1]
+      ├── [model 2]
+      ├── ...
+    ├── registration
+      ├── [model 1]
+      ├── [model 2]
+      ├── ...
+  ├── Models_training \\ <--- folder for training data and models
+    ├── nnUNet
+      ├── nnUNet_autoScripts \\ CMT-generated scripts
+      ├── nnUNet_log \\ log files
+      ├── nnUNet_trained_models \\ with log file in [some path]/all/training*.txt
+      ├── ...
+    ├── VoxelMorph
+      ├── vxm_autoScripts \\ CMT-generated scripts
+      ├── vxm_log \\ log files
+      ├── vxm_models \\ with learned template images in project subfolders
+      ├── ...
+  ├── ProjectConfiguration \\ <--- folder for project configuration
+  ├── Results \\ <--- folder for CMT results
 ```
 
 ### How to debug computing environment configuration?

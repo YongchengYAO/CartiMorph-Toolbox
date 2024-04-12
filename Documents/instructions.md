@@ -57,24 +57,23 @@ This is where you define training/inference data. If you did not configure the p
 
 CartiMorph Toolbox saves the quantification results into the `Results` folder with 1 subfolder for each project.  Folders are organized as follows.
 
-```python
+```
 # [Results] folder from CartiMorph Toolbox
-# ├── [CartiMorph Toolbox folder]
-# 	├── Results
-#   ├── Task<ID>_<task-name> // <--- "Result Folder" for CMV
-#	   ├── [case-name]
-#	    ├── CartilageSubregion
-#			├── CartilageSubregion_Figure // figure files
-#			├── Image
-#			├── MorphologicalQuantification // quantificaiton files
-#			 ├── [case-name]_MorphQuant.csv // csv files
-#			├── Surface
-#			├── Surface_Figure // figure files
-#			├── SurfaceNormal
-#			├── SurfaceNormal_Figure // figure files
-#			├── ThicknessMap
-#			├── ThicknessMap_Figure // figure files
-#			├── ThicknessMap
+├── [CartiMorph Toolbox folder]
+  ├── Results
+    ├── Task<ID>_<task-name> // <--- "Result Folder" for CMV
+      ├── [case-name]
+        ├── CartilageSubregion
+        ├── CartilageSubregion_Figure // figure files
+        ├── Image
+        ├── MorphologicalQuantification // quantificaiton files
+        ├── Surface
+        ├── Surface_Figure // figure files
+        ├── SurfaceNormal
+        ├── SurfaceNormal_Figure // figure files
+        ├── ThicknessMap
+        ├── ThicknessMap_Figure // figure files
+        ├── kneeSideInfo.mat
 ```
 
 ## Data visualization
