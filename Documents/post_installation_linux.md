@@ -12,12 +12,23 @@ At the end of the installation with a user interface, you are prompted to set up
 
 Lanuch CartiMorph Toolbox with `bash [path/to/run_CartiMorphToolbox.sh] [path/to/matlab/runtime]`
 
-You can set an alias by adding a line to `.bashrc`
+Setting alias for bash shell: adding a line to `.bashrc`
 
 ```bash
 # change [] to actual paths
 alias CMT="bash [path/to/run_CartiMorphToolbox.sh] [path/to/matlab/runtime]"
 ```
+
+Setting alias for fish shell: 
+
+```bash
+# change to fish shell
+fish
+# change [] to actual paths
+alias --save CMT="bash [path/to/run_CartiMorphToolbox.sh] [path/to/matlab/runtime]"
+```
+
+
 
 ### Solving conflicts due to old libraries shipped with Matlab (optional)
 
