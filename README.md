@@ -13,34 +13,14 @@ Check the [CMT release log](https://github.com/YongchengYAO/CartiMorph-Toolbox/b
 - [latest release: v1.0.1](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.1)
   - [CartiMorphToolbox-linux-standalone-v1.0.1.install](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/download/v1.0.1/CartiMorphToolbox-linux-standalone-v1.0.1.install)
 
-## Post-installation (Linux)
-
-### Set environment variables
-
-At the end of the installation with a user interface, you are prompted to set up some environment variables, such as
-
-- `MR`: the path to Matlab runtime folder
-- `XAPPLREDIR`: for display 
-- `LD_LIBRARY_PATH`: linked libraries
-
-### Launch CMT from command line and set alias (optional)
-
-Lanuch CartiMorph Toolbox with `bash [path/to/run_CartiMorphToolbox.sh] [path/to/matlab/runtime]`
-
-You can set an alias by adding a line to `.bashrc`
+## Installation
 
 ```bash
-# change [] to actual paths
-alias CMT="bash [path/to/run_CartiMorphToolbox.sh] [path/to/matlab/runtime]"
+chmod u+x CartiMorphToolbox-linux-standalone-v1.0.1.install
+./CartiMorphToolbox-linux-standalone-v1.0.1.install
 ```
 
-### Solving conflicts due to old libraries shipped with Matlab (optional)
-
-```bash
-sudo apt-get install matlab-support
-```
-
-You will be asked to choose whether renaming old libraries provided by Matlab, choose YES.
+Check [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/post_installation_linux.md) for setting environment variables and alias, and solving library conflicts.
 
 ## Model Release:
 
