@@ -20,7 +20,7 @@ chmod u+x CartiMorphToolbox-linux-standalone-v1.0.1.install
 ./CartiMorphToolbox-linux-standalone-v1.0.1.install
 ```
 
-Check [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/post_installation_linux.md) for setting environment variables and alias, and solving library conflicts.
+Check [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/post_installation_linux.md) for setting environment variables and alias, and solving library conflicts.
 
 ## Model Release:
 
