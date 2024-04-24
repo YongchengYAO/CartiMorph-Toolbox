@@ -10,17 +10,17 @@ The toolbox is currently under rapid testing and improvement. You don’t want t
 
 Check the [CMT release log](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/CMT_releases.md) for details.
 
-- [latest release: v1.0.1](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.1)
-  - [CartiMorphToolbox-linux-standalone-v1.0.1.install](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/download/v1.0.1/CartiMorphToolbox-linux-standalone-v1.0.1.install)
+- [latest release: v1.0.2](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.2)
+  - [CartiMorphToolbox-linux-standalone-v1.0.2.install](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/download/v1.0.2/CartiMorphToolbox-linux-standalone-v1.0.2.install)
 
 ## Installation
 
 ```bash
-chmod u+x CartiMorphToolbox-linux-standalone-v1.0.1.install
-./CartiMorphToolbox-linux-standalone-v1.0.1.install
+chmod u+x CartiMorphToolbox-linux-standalone-v1.0.2.install
+./CartiMorphToolbox-linux-standalone-v1.0.2.install
 ```
 
-Check [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/post_installation_linux.md) for setting environment variables and alias, and solving library conflicts.
+Check the [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/post_installation_linux.md) for setting environment variables and aliases, and solving library conflicts.
 
 ## Model Release:
 

@@ -10,7 +10,7 @@ At the end of the installation with a user interface, you are prompted to set up
 
 ### Launch CMT from command line and set alias (optional)
 
-Lanuch CartiMorph Toolbox with `bash [path/to/run_CartiMorphToolbox.sh] [path/to/matlab/runtime]`
+Launch CartiMorph Toolbox with `bash [path/to/run_CartiMorphToolbox.sh] [path/to/matlab/runtime]`
 
 Setting alias for bash shell: adding a line to `.bashrc`
 
@@ -36,6 +36,6 @@ alias --save CMT="bash [path/to/run_CartiMorphToolbox.sh] [path/to/matlab/runtim
 sudo apt-get install matlab-support
 ```
 
-You will be asked to choose whether renaming old libraries provided by Matlab, choose YES.
+You will be asked to choose whether to rename old libraries provided by Matlab: choose YES.
 
 [<<< Back to the main document](https://github.com/YongchengYAO/CartiMorph-Toolbox)
