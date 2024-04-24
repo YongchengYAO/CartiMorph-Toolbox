@@ -42,7 +42,7 @@ Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-T
   - cartilage surface area
   - cartilage volume
   - regional analysis (20 subregions)
-- Data visualization with [CartiMorph Viewer](https://github.com/YongchengYAO/CartiMorph-Viewer)
+- Data visualization with [CartiMorph Viewer](https://github.com/YongchengYAO/CartiMorph-Viewer) – try it with our [example results](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-CMV) generated from the CartiMorph Toolbox
 
 ## Previous & Our Work
 
