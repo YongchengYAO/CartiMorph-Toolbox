@@ -13,15 +13,6 @@ Check the [CMT release log](https://github.com/YongchengYAO/CartiMorph-Toolbox/b
 - [latest release: v1.0.2](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.2)
   - [CartiMorphToolbox-linux-standalone-v1.0.2.install](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/download/v1.0.2/CartiMorphToolbox-linux-standalone-v1.0.2.install)
 
-## Installation
-
-```bash
-chmod u+x CartiMorphToolbox-linux-standalone-v1.0.2.install
-./CartiMorphToolbox-linux-standalone-v1.0.2.install
-```
-
-Check the [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/post_installation_linux.md) for setting environment variables and aliases, and solving library conflicts.
-
 ## Model Release:
 
 Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md) for details. Just download the archived file, extract the files, and select the folder when importing models in CMT.
@@ -42,7 +33,21 @@ Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-T
   - cartilage surface area
   - cartilage volume
   - regional analysis (20 subregions)
-- Data visualization with [CartiMorph Viewer](https://github.com/YongchengYAO/CartiMorph-Viewer) – try it with our [example results](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-CMV) generated from the CartiMorph Toolbox
+- Data visualization with [CartiMorph Viewer](https://github.com/YongchengYAO/CartiMorph-Viewer) 
+
+## Example Data & Results
+
+- Test CartiMorph Toolbox with our [example data](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-Data)
+- Test CartiMorph Viewer with our [example results](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-CMV) generated from the CartiMorph Toolbox
+
+## Installation
+
+```bash
+chmod u+x CartiMorphToolbox-linux-standalone-v1.0.2.install
+./CartiMorphToolbox-linux-standalone-v1.0.2.install
+```
+
+Check the [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/post_installation_linux.md) for setting environment variables and aliases, and solving library conflicts.
 
 ## Previous & Our Work
 
