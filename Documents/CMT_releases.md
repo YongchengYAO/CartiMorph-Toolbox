@@ -1,3 +1,8 @@
+## v1.0.4
+
+- Bugfix [v1.0.{0-3}]: swapped subregions for lateral and medial TCs in left knees (an error in TC parcellation; right knee inputs are not affected)
+- Improvement: suppress progress bar when auto-saving models
+
 ## v1.0.3
 
 - Bugfix [v1.0.2]: missing image preprocessing step for segmentation model evaluation 
