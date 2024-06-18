@@ -4,7 +4,7 @@
 
 ![CMT-UI](instructions.assets/CMT-UI.png)
 
-Check the `Tips` in CMT
+– Check the `Tips` in CMT –
 
 ## Prerequisites
 
@@ -12,7 +12,14 @@ Check the `Tips` in CMT
   - NIfTI format: `.nii` or `.nii.gz`
   - The affine matrix should be in the NIfTI file header. Using [dcm2niix](https://github.com/rordenlab/dcm2niix) for image conversion is recommended.
   - Patellar cartilage in the axial view should be parallel to the image axis (see example below). Otherwise, you may need to rigid-body register the image to a reference image like the one on the left.
+  
 - Dependency: conda (anaconda or miniconda)
+
+  ```bash
+  # updating conda is necessary
+  conda update conda
+  ```
+
 - OS: Linux
 
 ![example-MRI](instructions.assets/example-MRI.png)
