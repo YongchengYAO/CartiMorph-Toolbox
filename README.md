@@ -109,6 +109,12 @@ For some identified issues, go to [this page](https://github.com/YongchengYAO/Ca
 
 
 
+## Applications
+
+- [**Quantifying Knee Cartilage Shape and Lesion: From Image to Metrics**](https://github.com/YongchengYAO/CMT-AMAI24paper)
+
+
+
 ## Citation
 
 If you use the toolkit, please cite the CartiMorph paper.
