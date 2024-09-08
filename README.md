@@ -4,7 +4,7 @@
 
 **Stay tuned: watch (upper right corner) > custom > Releases**
 
-The toolbox is currently under rapid testing and improvement. You don’t want to miss these updates.
+The toolbox is currently under rapid testing and improvement.
 
 
 
@@ -27,7 +27,11 @@ Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-T
 
 ## Features
 
-- [CartiMorph](https://github.com/YongchengYAO/CartiMorph): a framework for knee articular cartilage morphometrics
+- [**CartiMorph**](https://github.com/YongchengYAO/CartiMorph): a framework for knee articular cartilage morphometrics
+- DL Models:
+  - **CMT-reg**: a joint template learning and registration model
+  - Segmentation: nnUNet
+
 - User-friendly: 
   - automatic configuration
   - automatic image preprocessing 
@@ -49,6 +53,16 @@ Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-T
 
 - Test CartiMorph Toolbox with our [example data](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-Data)
 - Test CartiMorph Viewer with our [example results](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-CMV) generated from the CartiMorph Toolbox
+
+
+
+## Processed Data from CartiMorph for Training
+
+**This is the data used for training CMT-reg and nnUNet in CMT**
+
+If you use the [processed data](https://drive.google.com/drive/folders/13_afAKSH7ZMOI_Nk2gfoihbJKwafw1l9?usp=sharing), please note that the manual segmentation annotations come from this work: 
+
+- Automated Segmentation of Knee Bone and Cartilage combining Statistical Shape Knowledge and Convolutional Neural Networks: Data from the Osteoarthritis Initiative (https://doi.org/10.1016/j.media.2018.11.009)
 
 
 
