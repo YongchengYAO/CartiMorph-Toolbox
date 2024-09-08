@@ -4,8 +4,6 @@
 
 **Stay tuned: watch (upper right corner) > custom > Releases**
 
-The toolbox is currently under rapid testing and improvement.
-
 
 
 ## Toolbox Release
