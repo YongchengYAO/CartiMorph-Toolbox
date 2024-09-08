@@ -31,7 +31,6 @@ Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-T
 - DL Models:
   - **CMT-reg**: a joint template learning and registration model
   - Segmentation: nnUNet
-
 - User-friendly: 
   - automatic configuration
   - automatic image preprocessing 
@@ -56,7 +55,7 @@ Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-T
 
 
 
-## Processed Data from CartiMorph for Training
+## Processed Data from CartiMorph
 
 **This is the data used for training CMT-reg and nnUNet in CMT**
 
