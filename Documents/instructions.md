@@ -11,7 +11,7 @@
 - Data
   - NIfTI format: `.nii` or `.nii.gz`
   - The affine matrix should be in the NIfTI file header. Using [dcm2niix](https://github.com/rordenlab/dcm2niix) for image conversion is recommended.
-  - Patellar cartilage in the axial view should be parallel to the image axis (see example below). Otherwise, you may need to rigid-body register the image to a reference image like the one on the left.
+  - Patellar cartilage should be horizontal in the axial view (see the example below). Otherwise, you may need to register the image to a reference image like the one on the left. Use the rigid-body registration script [here](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Scripts/preCMT/CMT_regNIfTI_rigid.m) for this purpose.
   
 - Dependency: conda (anaconda or miniconda)
 
