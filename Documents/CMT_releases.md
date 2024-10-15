@@ -1,3 +1,8 @@
+## v1.0.5
+
+- Improvement: change the way of activating conda environment: `eval "$(conda shell.bash hook)"` + `conda activate [env-name]`
+- Improvement: install `mkl` in conda env `CartiMorphToolbox-nnUNet`
+
 ## v1.0.4
 
 - Bugfix [v1.0.{0-3}]: swapped subregions for lateral and medial TCs in left knees (an error in TC parcellation; right knee inputs are not affected)
