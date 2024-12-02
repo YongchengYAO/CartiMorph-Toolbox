@@ -30,6 +30,8 @@
   ├── Results \\ <--- folder for CMT results
 ```
 
+<br/>
+
 ### How to debug computing environment configuration?
 
 Check these log files:
@@ -47,6 +49,8 @@ OR
 - [CMT-Vxm.yml](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Scripts/envSetup/CMT-Vxm.yml): `conda env create -f CMT-Vxm.yml`
 - [CMT-nnUNet.yml](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Scripts/envSetup/CMT-nnUNet.yml):  `conda env create -f CMT-nnUNet.yml`
 
+<br/>
+
 ### How to debug segmentation network training/inference?
 
 Check the log files under these folders:
@@ -58,6 +62,8 @@ Check the CMT-generated scripts for model training/inference.
 
 - `[CMT-folder]/Models_training/nnUNet/nnUNet_autoScripts/Task[ID]_[name]`
 
+<br/>
+
 ### How to debug registration network training/inference?
 
 Check the log files under the folder:
@@ -67,6 +73,8 @@ Check the log files under the folder:
 Check the CMT-generated scripts for model training/inference.
 
 - `[CMT-folder]/Models_training/VoxelMorph/vxm_autoScripts/Task[ID]_[name]`
+
+<br/>
 
 ### How to debug or monitor the morphological quantification process?
 
@@ -79,5 +87,9 @@ monitor the process with
 ```bash
 watch -n1 tail -n20 [path/to/the/log/file]
 ```
+
+<br/>
+
+<br/>
 
 [<<< Back to the main document](https://github.com/YongchengYAO/CartiMorph-Toolbox)

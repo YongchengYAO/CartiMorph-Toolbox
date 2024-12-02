@@ -8,6 +8,8 @@ At the end of the installation with a user interface, you are prompted to set up
 - `XAPPLREDIR`: for display 
 - `LD_LIBRARY_PATH`: linked libraries
 
+<br/>
+
 ### Launch CMT from command line and set alias (optional)
 
 Launch CartiMorph Toolbox with `bash [path/to/run_CartiMorphToolbox.sh] [path/to/matlab/runtime]`
@@ -28,7 +30,7 @@ fish
 alias --save CMT="bash [path/to/run_CartiMorphToolbox.sh] [path/to/matlab/runtime]"
 ```
 
-
+<br/>
 
 ### Solving conflicts due to old libraries shipped with Matlab (optional)
 
@@ -37,5 +39,7 @@ sudo apt-get install matlab-support
 ```
 
 You will be asked to choose whether to rename old libraries provided by Matlab: choose YES.
+
+<br/><br/>
 
 [<<< Back to the main document](https://github.com/YongchengYAO/CartiMorph-Toolbox)

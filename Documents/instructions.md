@@ -6,6 +6,9 @@
 
 – Check the `Tips` in CMT –
 
+<br/>
+<br/>
+
 ## Prerequisites
 
 - Data
@@ -24,6 +27,9 @@
 
 ![example-MRI](instructions.assets/example-MRI.png)
 
+<br/>
+<br/>
+
 ## Section I. Computing Environment Configuration
 
 - `Project ID (3 digits)`: you must specify a unique 3-digit ID for each project/task/experiment, especially when you want to train or finetune the segmentation model.
@@ -32,6 +38,9 @@
 - `Conda Folder`: choose one of these folders, do not go into subfolders 
   - `miniconda3` for miniconda
   - `anaconda3` for anaconda
+
+<br/>
+<br/>
 
 ## Section II. Image Processing Pipeline
 
@@ -48,6 +57,9 @@
   - **Import Model**: press `load model files` and choose the **parent folder** of model files. The model properties, model weights, and the template image learned from the loaded model will be imported.
   - `Freeze Template Image`: the option would freeze the imported template, useful when the template is considered good enough and the user only wish to fine-tune the registration network.
 
+<br/>
+<br/>
+
 ## Section III. Raw Data Information
 
 This is where you define training/inference data. If you did not configure the pipeline to train/finetune a model, training data is not needed.
@@ -59,6 +71,9 @@ This is where you define training/inference data. If you did not configure the p
   filename2.nii.gz,left
   filename3.nii.gz,right
   ```
+
+<br/>
+<br/>
 
 ## Outputs in the`Results` Folder
 
@@ -83,9 +98,15 @@ CartiMorph Toolbox saves the quantification results into the `Results` folder wi
         ├── kneeSideInfo.mat
 ```
 
+<br/>
+<br/>
+
 ## Data visualization
 
 - Launch the CartiMorph Viewer from the CMT UI, or
 - Use the standalone [CartiMorph Viewer](https://github.com/YongchengYAO/CartiMorph-Viewer) 
+
+<br/>
+<br/>
 
 [<<< Back to the main document](https://github.com/YongchengYAO/CartiMorph-Toolbox)
