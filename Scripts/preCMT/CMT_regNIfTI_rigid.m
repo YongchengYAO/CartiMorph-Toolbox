@@ -8,7 +8,7 @@ function CMT_regNIfTI_rigid(movingFile, fixedFile, outputFile)
 %   outputFile  - Path to save the registered NIfTI image
 %
 % Example:
-%   CMT_regNIfTI('movingImage.nii', 'fixedImage.nii', 'registeredImage.nii
+%   CMT_regNIfTI('movingImage.nii', 'fixedImage.nii', 'registeredImage.nii')
 % -----------------------------------------------
 
 % Load NIfTI volumes
@@ -31,7 +31,7 @@ movingRegistered = imwarp(movingVolume, tform, 'OutputView', Rfixed);
 % Copy the header info of the moving NIfTI file
 outputInfo = niftiinfo(movingFile);
 
-%Update the NIfTI header with the new transformation matrix
+% Update the NIfTI header with the new transformation matrix
 outputInfo.Transform.T = tform.T * outputInfo.Transform.T;  % Adjust affine matrix
 
 % Save the registered image with the updated affine matrix
