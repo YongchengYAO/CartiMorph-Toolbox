@@ -42,6 +42,11 @@ Manually setup the virtual environment with these scripts:
 - [envSetup_CMTnnUNet.sh](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Scripts/envSetup/envSetup_CMTnnUNet.sh)
 - [envSetup_CMTvxm.sh](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Scripts/envSetup/envSetup_CMTvxm.sh)
 
+OR
+
+- [CMT-Vxm.yml](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Scripts/envSetup/CMT-Vxm.yml): `conda env create -f CMT-Vxm.yml`
+- [CMT-nnUNet.yml](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Scripts/envSetup/CMT-nnUNet.yml):  `conda env create -f CMT-nnUNet.yml`
+
 ### How to debug segmentation network training/inference?
 
 Check the log files under these folders:
