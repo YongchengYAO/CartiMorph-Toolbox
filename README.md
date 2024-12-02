@@ -6,9 +6,7 @@
 
 **Stay tuned: watch (upper right corner) > custom > Releases**
 
-
-
-
+<br/><br/>
 
 ## Toolbox Release
 
@@ -19,17 +17,13 @@ Check the [CMT release log](https://github.com/YongchengYAO/CartiMorph-Toolbox/b
 - [latest release: v1.0.5](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.5)
   - [CartiMorphToolbox-linux-standalone-v1.0.5.install](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/download/v1.0.5/CartiMorphToolbox-linux-standalone-v1.0.5.install)
 
-
-
-
+<br/><br/>
 
 ## Model Release:
 
 Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md) for details. Just download the archived file, extract the files, and select the folder when importing models in CMT.
 
-
-
-
+<br/><br/>
 
 ## Features
 
@@ -52,18 +46,14 @@ Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-T
   - regional analysis (20 subregions)
 - Data visualization with [CartiMorph Viewer](https://github.com/YongchengYAO/CartiMorph-Viewer) 
 
-
-
-
+<br/><br/>
 
 ## Example Data & Results
 
 - Test CartiMorph Toolbox with our [example data](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-Data)
 - Test CartiMorph Viewer with our [example results](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-CMV) generated from the CartiMorph Toolbox
 
-
-
-
+<br/><br/>
 
 ## :rocket: Processed Data from CartiMorph
 
@@ -78,9 +68,7 @@ If you use our preprocessed data, please note that the manual segmentation annot
 
 - Automated Segmentation of Knee Bone and Cartilage combining Statistical Shape Knowledge and Convolutional Neural Networks: Data from the Osteoarthritis Initiative (https://doi.org/10.1016/j.media.2018.11.009)
 
-
-
-
+<br/><br/>
 
 ## Installation
 
@@ -91,9 +79,7 @@ chmod u+x CartiMorphToolbox-linux-standalone-v1.0.4.install
 
 Check the [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/post_installation_linux.md) for setting environment variables and aliases, and solving library conflicts.
 
-
-
- 
+<br/><br/>
 
 ## Contribution & Related Work
 
@@ -106,17 +92,13 @@ You can find the examplary training scripts:
 
 Note that the scripts are not intended to be used separately from the CMT as it relies on the automatic preprocessing in the toolbox, which mainly consists of image reorientation, resampling, auto-downsampling (for registration model), and central cropping (for registration model).
 
-
-
-
+<br/><br/>
 
 ## Step-by-step Instruction
 
 For detailed instructions, please go to [this page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/instructions.md).
 
-
-
-
+<br/><br/>
 
 ## Debug
 
@@ -126,25 +108,19 @@ When training models on custom data, there is a risk that errors or problems wit
 
 For detailed instructions on how to debug, go to [this page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/debug.md).
 
-
-
-
+<br/><br/>
 
 ## Known Issues
 
 For some identified issues, go to [this page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/knownIssues.md).
 
-
-
-
+<br/><br/>
 
 ## Applications
 
 - [**Quantifying Knee Cartilage Shape and Lesion: From Image to Metrics**](https://github.com/YongchengYAO/CMT-AMAI24paper)
 
-
-
-
+<br/><br/>
 
 ## Citation
 
