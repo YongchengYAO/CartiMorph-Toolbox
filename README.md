@@ -8,6 +8,8 @@
 
 
 
+
+
 ## Toolbox Release
 
 Release version convention: v[major].[minor].[patch]
@@ -19,9 +21,13 @@ Check the [CMT release log](https://github.com/YongchengYAO/CartiMorph-Toolbox/b
 
 
 
+
+
 ## Model Release:
 
 Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md) for details. Just download the archived file, extract the files, and select the folder when importing models in CMT.
+
+
 
 
 
@@ -48,6 +54,8 @@ Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-T
 
 
 
+
+
 ## Example Data & Results
 
 - Test CartiMorph Toolbox with our [example data](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-Data)
@@ -55,13 +63,22 @@ Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-T
 
 
 
-## Processed Data from CartiMorph
+
+
+## :rocket: Processed Data from CartiMorph
 
 **This is the data used for training CMT-reg and nnUNet in CMT**
 
-If you use the [processed data](https://drive.google.com/drive/folders/13_afAKSH7ZMOI_Nk2gfoihbJKwafw1l9?usp=sharing), please note that the manual segmentation annotations come from this work: 
+| Source       | link                                                         |
+| ------------ | ------------------------------------------------------------ |
+| Google Drive | [here](https://drive.google.com/drive/folders/13_afAKSH7ZMOI_Nk2gfoihbJKwafw1l9?usp=share_link) |
+| Huggingface  | [here](https://huggingface.co/datasets/YongchengYAO/OAIZIB-CM/tree/main) |
+
+If you use our preprocessed data, please note that the manual segmentation annotations come from this work: 
 
 - Automated Segmentation of Knee Bone and Cartilage combining Statistical Shape Knowledge and Convolutional Neural Networks: Data from the Osteoarthritis Initiative (https://doi.org/10.1016/j.media.2018.11.009)
+
+
 
 
 
@@ -73,6 +90,8 @@ chmod u+x CartiMorphToolbox-linux-standalone-v1.0.4.install
 ```
 
 Check the [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/post_installation_linux.md) for setting environment variables and aliases, and solving library conflicts.
+
+
 
  
 
@@ -89,9 +108,13 @@ Note that the scripts are not intended to be used separately from the CMT as it 
 
 
 
+
+
 ## Step-by-step Instruction
 
 For detailed instructions, please go to [this page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/instructions.md).
+
+
 
 
 
@@ -105,15 +128,21 @@ For detailed instructions on how to debug, go to [this page](https://github.com/
 
 
 
+
+
 ## Known Issues
 
 For some identified issues, go to [this page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/knownIssues.md).
 
 
 
+
+
 ## Applications
 
 - [**Quantifying Knee Cartilage Shape and Lesion: From Image to Metrics**](https://github.com/YongchengYAO/CMT-AMAI24paper)
+
+
 
 
 
