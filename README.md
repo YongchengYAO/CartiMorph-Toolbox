@@ -8,24 +8,7 @@
 
 <br/><br/>
 
-## Toolbox Release
-
-Release version convention: v[major].[minor].[patch]
-
-Check the [CMT release log](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/CMT_releases.md) for details. 
-
-- [latest release: v1.0.5](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.5)
-  - [CartiMorphToolbox-linux-standalone-v1.0.5.install](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/download/v1.0.5/CartiMorphToolbox-linux-standalone-v1.0.5.install)
-
-<br/><br/>
-
-## Model Release:
-
-Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md) for details. Just download the archived file, extract the files, and select the folder when importing models in CMT.
-
-<br/><br/>
-
-## Features
+## Features of CartiMorph Toolbox (CMT)
 
 - [**CartiMorph**](https://github.com/YongchengYAO/CartiMorph): a framework for knee articular cartilage morphometrics
 - DL Models:
@@ -44,7 +27,59 @@ Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-T
   - cartilage surface area
   - cartilage volume
   - regional analysis (20 subregions)
-- Data visualization with [CartiMorph Viewer](https://github.com/YongchengYAO/CartiMorph-Viewer) 
+- Data visualization with [CartiMorph Viewer (CMV)](https://github.com/YongchengYAO/CartiMorph-Viewer) 
+
+<br/><br/>
+
+## Toolbox Release
+
+Release version convention: v[major].[minor].[patch]
+
+Check the [CMT release log](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/CMT_releases.md) for details.  |  [Latest Release: v1.0.5](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.5)
+
+- CartiMorph Toolbox installer: install the complete set of tools for computing and visualization
+- CartiMorph Viewer installer: install the standalone visualization UI
+
+<br/><br/>
+
+## Installation
+
+### How to install CMT/CMV on Linux?
+
+```bash
+# Install CMT on Linux
+chmod u+x CartiMorphToolbox-linux-standalone-v1.0.5.install
+./CartiMorphToolbox-linux-standalone-v1.0.5.install
+# Install CMV on Linux
+chmod u+x CartiMorphViewer-linux-standalone-v1.0.5.install
+./CartiMorphViewer-linux-standalone-v1.0.5.install
+```
+
+### How to install CMV on macOS? 
+
+(Q: Why CMT is not available on macOS? A: Training deep learning models on macOS is not supported.)
+
+1. Download `CartiMorphViewer-macOS-standalone-v1.0.5.install.app.zip`
+
+2. Unzip the downloaded file by double-clicking or via command 
+
+   ```bash
+   unzip CartiMorphViewer-macOS-standalone-v1.0.5.install.app.zip
+   ```
+
+3. :fire: Since macOS adds a `com.apple.quarantine` attribute to files downloaded from the internet, marking them as untrusted, we can remove the attribute via 
+
+   ```bash
+   sudo xattr -rd com.apple.quarantine CartiMorphViewer-macOS-standalone-v1.0.5.install.app
+   ```
+
+4. Now you can double click to install CMV on macOS.
+
+<br/><br/>
+
+## Model Checkpoint Release:
+
+Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md) for details. Just download the archived file, extract the files, and select the folder when importing models in CMT.
 
 <br/><br/>
 
