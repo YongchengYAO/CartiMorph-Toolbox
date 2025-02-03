@@ -42,6 +42,34 @@ Check the [CMT release log](https://github.com/YongchengYAO/CartiMorph-Toolbox/b
 
 <br/><br/>
 
+## Model Checkpoint Release:
+
+Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md) for details. Just download the archived file, extract the files, and select the folder when importing models in CMT.
+
+<br/><br/>
+
+## Example Data & Results
+
+- Test CartiMorph Toolbox with our [example data](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-Data)
+- Test CartiMorph Viewer with our [example results](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-CMV) generated from the CartiMorph Toolbox
+
+<br/><br/>
+
+## :rocket: Processed Data: OAIZIB-CM
+
+**This is the data used for training CMT-reg and nnUNet in CMT**
+
+| Source       | link                                                         |
+| ------------ | ------------------------------------------------------------ |
+| Google Drive | [here](https://drive.google.com/drive/folders/13_afAKSH7ZMOI_Nk2gfoihbJKwafw1l9?usp=share_link) |
+| Huggingface  | [here](https://huggingface.co/datasets/YongchengYAO/OAIZIB-CM/tree/main) |
+
+If you use our preprocessed data, please note that the manual segmentation annotations come from this work: 
+
+- Automated Segmentation of Knee Bone and Cartilage combining Statistical Shape Knowledge and Convolutional Neural Networks: Data from the Osteoarthritis Initiative (https://doi.org/10.1016/j.media.2018.11.009)
+
+<br/><br/>
+
 ## Installation
 
 ### How to install CMT/CMV on Linux?
@@ -55,7 +83,9 @@ chmod u+x CartiMorphViewer-linux-standalone-v1.0.5.install
 ./CartiMorphViewer-linux-standalone-v1.0.5.install
 ```
 
-### How to install CMV on macOS? 
+Check the [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/post_installation_linux.md) for setting environment variables and aliases, and solving library conflicts.
+
+### How to install CMV on macOS?
 
 (Q: Why CMT is not available on macOS? A: Training deep learning models on macOS is not supported.)
 
@@ -74,45 +104,6 @@ chmod u+x CartiMorphViewer-linux-standalone-v1.0.5.install
    ```
 
 4. Now you can double click to install CMV on macOS.
-
-<br/><br/>
-
-## Model Checkpoint Release:
-
-Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md) for details. Just download the archived file, extract the files, and select the folder when importing models in CMT.
-
-<br/><br/>
-
-## Example Data & Results
-
-- Test CartiMorph Toolbox with our [example data](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-Data)
-- Test CartiMorph Viewer with our [example results](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-CMV) generated from the CartiMorph Toolbox
-
-<br/><br/>
-
-## :rocket: Processed Data from CartiMorph
-
-**This is the data used for training CMT-reg and nnUNet in CMT**
-
-| Source       | link                                                         |
-| ------------ | ------------------------------------------------------------ |
-| Google Drive | [here](https://drive.google.com/drive/folders/13_afAKSH7ZMOI_Nk2gfoihbJKwafw1l9?usp=share_link) |
-| Huggingface  | [here](https://huggingface.co/datasets/YongchengYAO/OAIZIB-CM/tree/main) |
-
-If you use our preprocessed data, please note that the manual segmentation annotations come from this work: 
-
-- Automated Segmentation of Knee Bone and Cartilage combining Statistical Shape Knowledge and Convolutional Neural Networks: Data from the Osteoarthritis Initiative (https://doi.org/10.1016/j.media.2018.11.009)
-
-<br/><br/>
-
-## Installation
-
-```bash
-chmod u+x CartiMorphToolbox-linux-standalone-v1.0.4.install
-./CartiMorphToolbox-linux-standalone-v1.0.4.install
-```
-
-Check the [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/post_installation_linux.md) for setting environment variables and aliases, and solving library conflicts.
 
 <br/><br/>
 
