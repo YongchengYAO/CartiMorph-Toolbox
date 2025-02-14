@@ -164,6 +164,23 @@ issn = {1361-8415},
 doi = {https://doi.org/10.1016/j.media.2023.103035}
 }
 ```
+```
+@InProceedings{10.1007/978-3-031-82007-6_16,
+author="Yao, Yongcheng
+and Chen, Weitian",
+editor="Wu, Shandong
+and Shabestari, Behrouz
+and Xing, Lei",
+title="Quantifying Knee Cartilage Shape and Lesion: From Image to Metrics",
+booktitle="Applications of Medical Artificial Intelligence",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="162--172",
+doi={https://doi.org/10.1007/978-3-031-82007-6_16}
+}
+```
+
 
 ```
 @InProceedings{10.1007/978-3-031-82007-6_16,
