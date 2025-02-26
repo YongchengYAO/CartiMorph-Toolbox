@@ -1,15 +1,12 @@
-
-
 ![aboutCMT](README.assets/aboutCMT.png)
 
 :fire: SOURCE CODE RELEASE :fire:
 
 **Stay tuned: watch (upper right corner) > custom > Releases**
-
 <br/><br/>
 
-## Features of CartiMorph Toolbox (CMT)
 
+## Features of CartiMorph Toolbox (CMT)
 - [**CartiMorph**](https://github.com/YongchengYAO/CartiMorph): a framework for knee articular cartilage morphometrics
 - DL Models:
   - **CMT-reg**: a joint template learning and registration model
@@ -28,37 +25,32 @@
   - cartilage volume
   - regional analysis (20 subregions)
 - Data visualization with [CartiMorph Viewer (CMV)](https://github.com/YongchengYAO/CartiMorph-Viewer) 
-
 <br/><br/>
 
-## Toolbox Release
 
+## Toolbox Release
 Release version convention: v[major].[minor].[patch]
 
 Check the [CMT release log](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/CMT_releases.md) for details.  |  [Latest Release: v1.0.5](https://github.com/YongchengYAO/CartiMorph-Toolbox/releases/tag/v1.0.5)
 
 - CartiMorph Toolbox installer: install the complete set of tools for computing and visualization
 - CartiMorph Viewer installer: install the standalone visualization UI
-
 <br/><br/>
+
 
 ## Model Checkpoint Release:
-
 Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md) for details. Just download the archived file, extract the files, and select the folder when importing models in CMT.
-
 <br/><br/>
+
 
 ## Example Data & Results
-
 - Test CartiMorph Toolbox with our [example data](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-Data)
 - Test CartiMorph Viewer with our [example results](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-CMV) generated from the CartiMorph Toolbox
-
 <br/><br/>
 
+
 ## :rocket: Processed Data: OAIZIB-CM
-
 **This is the data used for training CMT-reg and nnUNet in CMT**
-
 | Source       | link                                                         |
 | ------------ | ------------------------------------------------------------ |
 | Huggingface  | [here (recommended)](https://huggingface.co/datasets/YongchengYAO/OAIZIB-CM/tree/main) |
@@ -70,13 +62,11 @@ If you use our preprocessed data, please note that:
 - In OAIZIB-CM, tibial cartilage is split into medial and lateral tibial cartilages.
 - It is compulsory to cite the papers if you use the dataset
   - [CartiMorph: A framework for automated knee articular cartilage morphometrics](https://doi.org/10.1016/j.media.2023.103035)
-
 <br/><br/>
 
+
 ## Installation
-
 ### How to install CMT/CMV on Linux?
-
 ```bash
 # Install CMT on Linux
 chmod u+x CartiMorphToolbox-linux-standalone-v1.0.5.install
@@ -85,33 +75,24 @@ chmod u+x CartiMorphToolbox-linux-standalone-v1.0.5.install
 chmod u+x CartiMorphViewer-linux-standalone-v1.0.5.install
 ./CartiMorphViewer-linux-standalone-v1.0.5.install
 ```
-
 Check the [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/post_installation_linux.md) for setting environment variables and aliases, and solving library conflicts.
 
 ### How to install CMV on macOS?
-
 (Q: Why CMT is not available on macOS? A: Training deep learning models on macOS is not supported.)
-
 1. Download `CartiMorphViewer-macOS-standalone-v1.0.5.install.app.zip`
-
 2. Unzip the downloaded file by double-clicking or via command 
-
    ```bash
    unzip CartiMorphViewer-macOS-standalone-v1.0.5.install.app.zip
    ```
-
 3. :fire: Since macOS adds a `com.apple.quarantine` attribute to files downloaded from the internet, marking them as untrusted, we can remove the attribute via 
-
    ```bash
    sudo xattr -rd com.apple.quarantine CartiMorphViewer-macOS-standalone-v1.0.5.install.app
    ```
-
 4. Now you can double click to install CMV on macOS.
-
 <br/><br/>
 
-## Contribution & Related Work
 
+## Contribution & Related Work
 CMT is based on previous works on medical image segmentation and registration. Specifically, we made minor modificaiton to the nnUNet (v1) and major changes to VoxelMorph. The training losses and strategy of our registration model is different from the original VoxelMorph model. Our modified packages are published as [CartiMorph-vxm](https://github.com/YongchengYAO/CartiMorph-vxm#cartimorph-vxm) and [CartiMorph-nnUNet](https://github.com/YongchengYAO/CartiMorph-nnUNet#cartimorph-nnunet).
 
 You can find the examplary training scripts:
@@ -120,36 +101,32 @@ You can find the examplary training scripts:
 - segmentation with nnUNet: [training_3dF.sh](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Scripts/segModel/training_3dF.sh)
 
 Note that the scripts are not intended to be used separately from the CMT as it relies on the automatic preprocessing in the toolbox, which mainly consists of image reorientation, resampling, auto-downsampling (for registration model), and central cropping (for registration model).
-
 <br/><br/>
+
 
 ## Step-by-step Instruction
-
 For detailed instructions, please go to [this page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/instructions.md).
-
 <br/><br/>
 
-## Debug
 
+## Debug
 Once the preprocessing steps in the segmentation model and registration model training sections are completed, you should be able to observe computing on GPU with the `nvidia-smi` command. One way to monitor the process is by `watch -n1 nvidia-smi`.
 
 When training models on custom data, there is a risk that errors or problems with the data could adversely impact the training process. As we are not using any kind of container, package dependency error may occur and cause failure in deep learning model training and inference. Please open issues to help us improve.
 
 For detailed instructions on how to debug, go to [this page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/debug.md).
-
 <br/><br/>
+
 
 ## Known Issues
-
 For some identified issues, go to [this page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/knownIssues.md).
-
 <br/><br/>
+
 
 ## Applications
-
 - [**Quantifying Knee Cartilage Shape and Lesion: From Image to Metrics**](https://github.com/YongchengYAO/CMT-AMAI24paper)
-
 <br/><br/>
+
 
 ## Citation
 
