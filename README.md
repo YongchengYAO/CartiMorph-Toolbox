@@ -153,7 +153,8 @@ For some identified issues, go to [this page](https://github.com/YongchengYAO/Ca
 
 ## Citation
 
-If you use the **OAIZIB-CM** dataset, please cite the CartiMorph paper:
+- Please cite both papers if you use **CartiMorph Toolbox**
+- Please cite the first paper if you use the **OAIZIB-CM** dataset
 
 ```
 @article{YAO2024103035,
@@ -167,7 +168,6 @@ issn = {1361-8415},
 doi = {https://doi.org/10.1016/j.media.2023.103035}
 }
 ```
-If you use the **CartiMorph Toolbox**, please cite the toolbox paper:
 ```
 @InProceedings{10.1007/978-3-031-82007-6_16,
 author="Yao, Yongcheng
