@@ -3,6 +3,7 @@
 :fire: SOURCE CODE RELEASE :fire:
 
 **Stay tuned: watch (upper right corner) > custom > Releases**
+
 <br/><br/>
 
 
@@ -24,7 +25,8 @@
   - cartilage surface area
   - cartilage volume
   - regional analysis (20 subregions)
-- Data visualization with [CartiMorph Viewer (CMV)](https://github.com/YongchengYAO/CartiMorph-Viewer) 
+- Data visualization with [CartiMorph Viewer (CMV)](https://github.com/YongchengYAO/CartiMorph-Viewer)
+  
 <br/><br/>
 
 
@@ -35,17 +37,20 @@ Check the [CMT release log](https://github.com/YongchengYAO/CartiMorph-Toolbox/b
 
 - CartiMorph Toolbox installer: install the complete set of tools for computing and visualization
 - CartiMorph Viewer installer: install the standalone visualization UI
+  
 <br/><br/>
 
 
 ## Model Checkpoint Release:
 Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md) for details. Just download the archived file, extract the files, and select the folder when importing models in CMT.
+
 <br/><br/>
 
 
 ## Example Data & Results
 - Test CartiMorph Toolbox with our [example data](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-Data)
 - Test CartiMorph Viewer with our [example results](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-CMV) generated from the CartiMorph Toolbox
+  
 <br/><br/>
 
 
@@ -68,6 +73,7 @@ This is the official release of **OAIZIB-CM** dataset
   - corresponding 20-ROI atlas for articular cartilages
 - It is compulsory to cite these papers if you use the dataset
   - [CartiMorph: A framework for automated knee articular cartilage morphometrics](https://doi.org/10.1016/j.media.2023.103035)
+    
 <br/><br/>
 
 
@@ -83,6 +89,8 @@ chmod u+x CartiMorphViewer-linux-standalone-v1.0.5.install
 ```
 Check the [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/post_installation_linux.md) for setting environment variables and aliases, and solving library conflicts.
 
+<br/>
+
 ### How to install CMV on macOS?
 (Q: Why CMT is not available on macOS? A: Training deep learning models on macOS is not supported.)
 1. Download `CartiMorphViewer-macOS-standalone-v1.0.5.install.app.zip`
@@ -95,6 +103,7 @@ Check the [post-installation instructions page](https://github.com/YongchengYAO/
    sudo xattr -rd com.apple.quarantine CartiMorphViewer-macOS-standalone-v1.0.5.install.app
    ```
 4. Now you can double click to install CMV on macOS.
+   
 <br/><br/>
 
 
@@ -107,11 +116,13 @@ You can find the examplary training scripts:
 - segmentation with nnUNet: [training_3dF.sh](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Scripts/segModel/training_3dF.sh)
 
 Note that the scripts are not intended to be used separately from the CMT as it relies on the automatic preprocessing in the toolbox, which mainly consists of image reorientation, resampling, auto-downsampling (for registration model), and central cropping (for registration model).
+
 <br/><br/>
 
 
 ## Step-by-step Instruction
 For detailed instructions, please go to [this page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/instructions.md).
+
 <br/><br/>
 
 
@@ -121,17 +132,20 @@ Once the preprocessing steps in the segmentation model and registration model tr
 When training models on custom data, there is a risk that errors or problems with the data could adversely impact the training process. As we are not using any kind of container, package dependency error may occur and cause failure in deep learning model training and inference. Please open issues to help us improve.
 
 For detailed instructions on how to debug, go to [this page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/debug.md).
-<br/><br/>
+
+<br/>
 
 
 ## Known Issues
 For some identified issues, go to [this page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/knownIssues.md).
-<br/><br/>
+
+<br/>
 
 
 ## Applications
 - [**Quantifying Knee Cartilage Shape and Lesion: From Image to Metrics**](https://github.com/YongchengYAO/CMT-AMAI24paper)
-<br/><br/>
+  
+<br/>
 
 
 ## Citation
