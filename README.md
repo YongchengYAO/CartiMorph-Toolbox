@@ -55,8 +55,8 @@ Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-T
 
 
 ## :rocket: Processed Data: OAIZIB-CM
+### Data
 **This is the data used for training CMT-reg and nnUNet in CMT**
-
 | Source       | link                                                         |
 | ------------ | ------------------------------------------------------------ |
 | Huggingface  | [main](https://huggingface.co/datasets/YongchengYAO/OAIZIB-CM/tree/main) |
@@ -67,6 +67,8 @@ Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-T
   - `main`: The main branch contains the same files as those in Zenodo and Google Drive
   - `load_dataset-support`: We added HF `load_dataset()` support in this branch (ref: [intended usage 2](https://huggingface.co/datasets/YongchengYAO/OAIZIB-CM#2-load-dataset-or-iterabledataset-from-the-load_dataset-support-branch-%EF%B8%8F))
 
+
+### Data Info
 This is the official release of **OAIZIB-CM** dataset 
 - OAIZIB-CM is based on the OAIZIB dataset
   - OAIZIB paper: [Automated Segmentation of Knee Bone and Cartilage combining Statistical Shape Knowledge and Convolutional Neural Networks: Data from the Osteoarthritis Initiative](https://doi.org/10.1016/j.media.2018.11.009)
