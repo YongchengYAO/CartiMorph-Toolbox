@@ -70,7 +70,7 @@ If you use our preprocessed data, please note that the manual segmentation annot
 
 <br/><br/>
 
-## Installation
+## 🛠️ Installation
 
 ### How to install CMT/CMV on Linux?
 
@@ -84,6 +84,24 @@ chmod u+x CartiMorphViewer-linux-standalone-v1.0.5.install
 ```
 
 Check the [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/post_installation_linux.md) for setting environment variables and aliases, and solving library conflicts.
+
+### How to launch CMT on Linux?
+
+During the installation, you are asked to set the folder for CMT and Matlab Runtime. Suppose you set them to `<CMT>` and `<MR>`, use this CLI command to launch the toolbox:  
+
+```bash
+# Go the the CMT folder, replace <CMT> 
+cd <CMT>/application
+# Launch CMT, replace <MR>
+bash run_CartiMorphToolbox.sh <MR>/R2023b
+```
+
+Tips: Setting alias for bash shell: adding a line to `.bashrc` and launch the toolbox with the CLI command `CMT`.
+
+```bash
+# Change <> to actual paths
+alias CMT="bash <path/to/run_CartiMorphToolbox.sh> <path/to/matlab/runtime>"
+```
 
 ### How to install CMV on macOS?
 
