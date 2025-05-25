@@ -27,6 +27,7 @@
   - regional analysis (20 subregions)
 - Data visualization with [CartiMorph Viewer (CMV)](https://github.com/YongchengYAO/CartiMorph-Viewer)
   
+
 <br/><br/>
 
 
@@ -38,6 +39,7 @@ Check the [CMT release log](https://github.com/YongchengYAO/CartiMorph-Toolbox/b
 - CartiMorph Toolbox installer: install the complete set of tools for computing and visualization
 - CartiMorph Viewer installer: install the standalone visualization UI
   
+
 <br/><br/>
 
 
@@ -51,6 +53,7 @@ Check the [model releases log file](https://github.com/YongchengYAO/CartiMorph-T
 - Test CartiMorph Toolbox with our [example data](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-Data)
 - Test CartiMorph Viewer with our [example results](https://github.com/YongchengYAO/CartiMorph-Toolbox/tree/main/Examples-CMV) generated from the CartiMorph Toolbox
   
+
 <br/><br/>
 
 
@@ -81,6 +84,7 @@ This is the official release of **OAIZIB-CM** dataset
 - It is compulsory to cite the paper if you use the dataset
   - [CartiMorph: A framework for automated knee articular cartilage morphometrics](https://doi.org/10.1016/j.media.2023.103035)
     
+
 <br/><br/>
 
 ## 🛠️ Installation
@@ -95,7 +99,10 @@ chmod u+x CartiMorphViewer-linux-standalone-v1.0.5.install
 ```
 Check the [post-installation instructions page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Documents/post_installation_linux.md) for setting environment variables and aliases, and solving library conflicts.
 
-### How to launch CMT on Linux?
+<br/>
+
+### /ow to launch CMT on Linux?
+
 During the installation, you are asked to set the folder for CMT and Matlab Runtime. Suppose you set them to `<CMT>` and `<MR>`, use this CLI command to launch the toolbox:  
 ```bash
 # Go the the CMT folder, replace <CMT> 
@@ -124,6 +131,7 @@ alias CMT="bash <path/to/run_CartiMorphToolbox.sh> <path/to/matlab/runtime>"
    ```
 4. Now you can double click to install CMV on macOS.
    
+
 <br/><br/>
 
 
@@ -165,6 +173,7 @@ For some identified issues, go to [this page](https://github.com/YongchengYAO/Ca
 ## Applications
 - [**Quantifying Knee Cartilage Shape and Lesion: From Image to Metrics**](https://github.com/YongchengYAO/CMT-AMAI24paper)
   
+
 <br/>
 
 
