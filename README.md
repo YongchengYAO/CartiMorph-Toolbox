@@ -101,7 +101,7 @@ Check the [post-installation instructions page](https://github.com/YongchengYAO/
 
 <br/>
 
-### /ow to launch CMT on Linux?
+### How to launch CMT on Linux?
 
 During the installation, you are asked to set the folder for CMT and Matlab Runtime. Suppose you set them to `<CMT>` and `<MR>`, use this CLI command to launch the toolbox:  
 ```bash
